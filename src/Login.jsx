@@ -64,7 +64,7 @@ const Login = ({  setIsPositive, setMessage, setShowMessage, setLoggedInUser }) 
     return (
 
         <div id="loginWindow" className="container mt-4">
-            <h2 className="mb-4">Login</h2>
+            <h2 className="mb-4">Login here</h2>
 
             <form onSubmit={handleSubmit} id="userAddForm">
                 
