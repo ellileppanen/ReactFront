@@ -83,7 +83,7 @@ const UserList = ({ setIsPositive, setShowMessage, setMessage }) => {
 
     }
 
-    //jos käyttäjällä ei ole oikeuksia (accesslevelId !== '1'), näytetään viesti
+    //jos käyttäjä ei ole admin, eli 1, näytetään viesti
     if (accesslevelId !== '1') {
         return <div>Sinulla ei ole oikeuksia nähdä käyttäjälistaa.</div>
     }

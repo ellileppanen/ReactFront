@@ -70,6 +70,7 @@ const Login = ({  setIsPositive, setMessage, setShowMessage, setLoggedInUser }) 
                 
                 <div className="mb-3">
                     <input
+                        id='UsernameInput'
                         type="text"
                         className="form-control"
                         value={UserName}
@@ -80,6 +81,7 @@ const Login = ({  setIsPositive, setMessage, setShowMessage, setLoggedInUser }) 
 
                 <div className="mb-3">
                     <input
+                        id='PasswordInput'
                         type="password"
                         className="form-control"
                         value={Password}
