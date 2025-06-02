@@ -52,4 +52,10 @@ describe('testi harjoittelua', function () {
     cy.contains('Succesfully removed testi tuote')
   })
 
+  it('Uloskirjautuminen', function () {
+    //testataan uloskirjautuminen
+    cy.contains('Log out').click()
+    cy.contains('Sisäänkirjautuminen')
+  })
+
 })
